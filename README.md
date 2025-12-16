@@ -25,11 +25,12 @@ Le site est développé sans framework afin de rester léger, lisible et facilem
 ```text 
 
 /
-├── index.html
+├── index.php
+├── news.html
 ├── a-propos.html
-├── chiots.html
 ├── males.html
 ├── femelles.html
+├── chiots.html
 ├── contact.html
 │
 ├── /includes
