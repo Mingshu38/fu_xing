@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Nos mâles reproducteurs - Mon Élevage de Shih Tzu";
-include 'header.php';
+include 'includes/header.php';
 ?>
     <!-- ############ HERO ########## -->
     <section class="page-hero">
@@ -390,12 +390,5 @@ include 'header.php';
 
         </div>
     </div>
-    <footer>
-        <p>&copy; 2025 Élevage de Fu Xing. Tous droits réservés. Développé par Mingshu WebDev</p>
-        <p>Contact : sonia.joly38@gmail.com / michon.valerie@hotmal.fr| Tél : 06 34 08 09 39 / 06 51 37 42 70</p>
-    </footer>
-
-    <script src="./script.js"></script>
-</body>
-
-</html>
+     <!-- ############ FOOTER ########## -->
+<?php include 'includes/footer.php'; ?>

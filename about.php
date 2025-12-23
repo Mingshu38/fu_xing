@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Qui sommes-nous ? - Mon Élevage de Chiens";
-include 'header.php'; 
+include 'includes/header.php'; 
 ?>
 
     <section class="about-hero">
@@ -52,3 +52,5 @@ include 'header.php';
             </div>
         </section>
     </div>
+         <!-- ############ FOOTER ########## -->
+<?php include 'includes/footer.php'; ?>
