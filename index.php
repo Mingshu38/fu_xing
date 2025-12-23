@@ -1,9 +1,9 @@
-<?php include 'header.php'; ?>
+<?php include 'includes/header.php'; ?>
      <!-- ############ HERO ########## -->
     <section class="hero">
         <h2>Bienvenue dans notre élevage</h2>
         <p>Passionnées par les shih tzu depuis plus de 25 ans</p>
-        <a href="./a_propos.html" class="btn">Découvrir notre histoire</a>
+        <a href="about.php" class="btn">Découvrir notre histoire</a>
     </section>
      <!-- ############ NEWS ########## -->
      <section id="news" class="news-section">
@@ -84,4 +84,4 @@
         </div>
     </div>
      <!-- ############ FOOTER ########## -->
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
