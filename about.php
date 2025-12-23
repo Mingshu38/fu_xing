@@ -1,58 +1,13 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php 
+$pageTitle = "Qui sommes-nous ? - Mon Élevage de Chiens";
+include 'header.php'; 
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Élévage de Fu Xing</title>
-</head>
-
-<body>
-    <!-- ########## HEADER ########### -->
-    <header>
-        <div class="header-container">
-            <!-- ############ NAVIGATION ########## -->
-            <a href="index.html" class="logo">
-                <div class="logo-placeholder"><img src="./assets/img/logo.webp" alt="logo de l'élevage"></div>
-                <h1>Les Shih tzu <br> de Fu Xing</h1>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="./a_propos.html">Qui sommes nous ?</a></li>
-                    <li><a href="#males">Nos mâles</a></li>
-                    <li><a href="#femelles">Nos femelles</a></li>
-                    <li><a href="#chiots">Chiots disponibles</a></li>
-                    <li><a href="#contact">Nous contacter</a></li>
-                </ul>
-            </nav>
-             <!-- ############ BURGER MENU ########## -->
-            <div class="burger-menu" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </header>
-
-    <div class="mobile-nav" id="mobileNav">
-        <ul>
-            <li><a href="#news" onclick="toggleMenu()">News</a></li>
-            <li><a href="#about" onclick="toggleMenu()">Qui sommes nous ?</a></li>
-            <li><a href="#males" onclick="toggleMenu()">Nos mâles</a></li>
-            <li><a href="#femelles" onclick="toggleMenu()">Nos femelles</a></li>
-            <li><a href="#chiots" onclick="toggleMenu()">Chiots disponibles</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Nous contacter</a></li>
-        </ul>
-    </div>
-
-
-        <section class="about-hero">
+    <section class="about-hero">
         <div class="about-overlay">
             <div class="container">
                 <h1>Qui sommes-nous ?</h1>
-                <p class="subtitle">Valérie & Sonia, passionnées de Shih Tzu depuis plus de 25 ans</p>
+                <p class="subtitle">Valérie & Sonia, passionnées de Shih Tzu depuis plus de 15 ans</p>
             </div>
         </div>
     </section>
@@ -61,7 +16,7 @@
         <section class="about-section">
             <div class="about-text">
                 <h2>Notre histoire</h2>
-                <p>Valérie et Sonia sont heureuses de vous accueillir dans leur univers. Avant tout amies, elles partagent une même passion qui les a naturellement conduites à s'associer dans cette belle aventure. Passionnées depuis plus de 25 ans, elles ont su allier leur amour des Shih Tzu à une expertise reconnue dans le domaine de l'élevage canin.</p>
+                <p>Valérie et Sonia sont heureuses de vous accueillir dans leur univers. Avant tout amies, elles partagent une même passion qui les a naturellement conduites à s'associer dans cette belle aventure. Passionnées depuis plus de 15 ans, elles ont su allier leur amour des Shih Tzu à une expertise reconnue dans le domaine de l'élevage canin.</p>
                 
                 <p>Nous attachons une grande importance au bien-être de nos chiens et de leurs petits. Notre priorité est de garantir leur équilibre et leur bonne santé, conditions essentielles pour que chaque chiot arrive dans sa nouvelle famille dans les meilleures dispositions possibles.</p>
                 
@@ -97,14 +52,3 @@
             </div>
         </section>
     </div>
-
-        <!-- ############ FOOTER ########## -->
-    <footer>
-        <p>&copy; 2025 Élevage de Fu Xing. Tous droits réservés. Développé par Mingshu WebDev</p>
-        <p>Contact : sonia.joly38@gmail.com / michon.valerie@hotmal.fr| Tél : 06 34 08 09 39 / 06 51 37 42 70</p>
-    </footer>
-
-    <script src="./script.js"></script>
-</body>
-
-</html>

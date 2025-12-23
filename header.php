@@ -20,8 +20,8 @@
             <nav>
                 <ul>
                     <li><a href="#news">News</a></li>
-                    <li><a href="./a_propos.html">Qui sommes nous ?</a></li>
-                    <li><a href="./males.php">Nos mâles</a></li>
+                    <li><a href="about.php">Qui sommes nous ?</a></li>
+                    <li><a href="males.php">Nos mâles</a></li>
                     <li><a href="#femelles">Nos femelles</a></li>
                     <li><a href="#chiots">Chiots disponibles</a></li>
                     <li><a href="#contact">Nous contacter</a></li>
@@ -39,8 +39,8 @@
     <div class="mobile-nav" id="mobileNav">
         <ul>
             <li><a href="#news" onclick="toggleMenu()">News</a></li>
-            <li><a href="./a_propos.html" onclick="toggleMenu()">Qui sommes nous ?</a></li>
-            <li><a href="#males" onclick="toggleMenu()">Nos mâles</a></li>
+            <li><a href="about.php" onclick="toggleMenu()">Qui sommes nous ?</a></li>
+            <li><a href="males.php" onclick="toggleMenu()">Nos mâles</a></li>
             <li><a href="#femelles" onclick="toggleMenu()">Nos femelles</a></li>
             <li><a href="#chiots" onclick="toggleMenu()">Chiots disponibles</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Nous contacter</a></li>

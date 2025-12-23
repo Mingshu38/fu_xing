@@ -17,10 +17,10 @@ include 'header.php';
             <div class="dog-card">
                 <div class="dog-image">
                     <img src="images/male1.jpg" alt="Nom du chien 1">
-                    <div class="dog-name-badge">Zeus</div>
+                    <div class="dog-name-badge">Bradley</div>
                 </div>
                 <div class="dog-info">
-                    <h3>Zeus du Palais Royal</h3>
+                    <h3>Tommyknockers de Fu Xing </h3>
                     <p class="dog-age">3 ans • Mâle</p>
 
                     <div class="tabs">
@@ -31,9 +31,13 @@ include 'header.php';
 
                     <div id="titres1" class="tab-content active">
                         <ul>
-                            <li>🏆 Champion de France 2023</li>
-                            <li>🥇 1er prix Exposition Nationale</li>
-                            <li>⭐ Excellent en confirmation</li>
+                            <li>🏆 Champion du monde 2025</li>
+                            <li>🏆 Champion Suisse </li>
+                            <li>🏆 Champion international</li>
+                            <li>🏆 Champion Slovenie</li>
+                            <li>🏆 Champion Autriche</li>
+                            <li>🏆 Champion Bosnie</li>
+                            <li>🏆 Champion du club CCTF</li>
                         </ul>
                     </div>
 
