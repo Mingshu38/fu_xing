@@ -1,14 +1,14 @@
 <?php include 'includes/header.php'; ?>
      <!-- ############ HERO ########## -->
     <section class="hero">
-        <h2>Bienvenue dans notre élevage</h2>
-        <p>Passionnées par les shih tzu depuis plus de 25 ans</p>
-        <a href="about.php" class="btn">Découvrir notre histoire</a>
+        <h2 class="fade-in">Bienvenue dans notre élevage</h2>
+        <p class="fade-in">Passionnées par les shih tzu depuis plus de 25 ans</p>
+        <a href="about.php" class="btn fade-in">Découvrir notre histoire</a>
     </section>
      <!-- ############ NEWS ########## -->
      <section id="news" class="news-section">
         <div class="container">
-            <h2 class="section-title">Nos dernières actualités</h2>
+            <h2 class="section-title">Actualités de l'élevage de Fu Xing</h2>
             <div class="news-cards">
                 <article class="news-card">
                     <div class="news-image1">
@@ -47,7 +47,7 @@
     </section>
      <!-- ############ OUR DOGS ########## -->
     <div class="container">
-        <h2 class="section-title">Nos chiens</h2>
+        <h2 class="section-title">Le cœur de l'élevage de Fu Xing</h2>
         <div class="cards">
             <div class="card">
                 <div class="card-image1"></div>
@@ -58,6 +58,7 @@
                         environnement familial favorisant son équilibre et son bien-être. Nous attachons une importance
                         particulière à la santé, au caractère et à la qualité de nos lignées afin de proposer des chiots
                         conformes aux standards de la race.</p>
+                        <a href="#" class="news-link">la page des chiots →</a>
                 </div>
             </div>
             <div class="card">
@@ -68,6 +69,7 @@
                         équilibré et leurs excellents résultats en expositions.
                         Ils possèdent des pedigrees rigoureusement étudiés et sont testés pour les principales
                         affections génétiques de la race, garantissant ainsi des lignées saines et reconnues.</p>
+                        <a href="males.php" class="news-link">la page des mâles →</a>
                 </div>
             </div>
             <div class="card">
@@ -79,6 +81,7 @@
                         participent activement à la transmission des qualités de notre élevage. Leurs parcours en
                         expositions et la qualité de leurs lignées témoignent de notre exigence et de notre engagement.
                     </p>
+                    <a href="#" class="news-link">la page des femelles →</a>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <?php 
-$pageTitle = "Nos mâles reproducteurs - Mon Élevage de Shih Tzu";
+$pageTitle = "Nos mâles - Élevage de Fu Xing";
 include 'includes/header.php';
 ?>
     <!-- ############ HERO ########## -->
@@ -35,25 +35,26 @@ include 'includes/header.php';
                             <li>🏆 Champion Suisse </li>
                             <li>🏆 Champion international</li>
                             <li>🏆 Champion Slovenie</li>
+                            <li>🏆 Champion Belgique</li>
                             <li>🏆 Champion Autriche</li>
                             <li>🏆 Champion Bosnie</li>
+                            <li>🏆 Grand Champion Bosnie</li>
                             <li>🏆 Champion du club CCTF</li>
                         </ul>
                     </div>
 
                     <div id="sante1" class="tab-content">
                         <ul>
-                            <li>✅ Test ADN complet</li>
-                            <li>✅ Hanches et coudes : A/A</li>
+                            <li>✅ Test ADN (STR-ISAG2006)</li>
                             <li>✅ Yeux : Sain</li>
-                            <li>✅ Cardiaque : Normal</li>
+                            <li>✅ BREATH.1</li>
                         </ul>
                     </div>
 
                     <div id="pedigree1" class="tab-content">
-                        <p><strong>Père :</strong> Champion International</p>
-                        <p><strong>Mère :</strong> Multi-championne</p>
-                        <p><strong>Lignée :</strong> Lignée américaine</p>
+                        <p><strong>Père :</strong> <a href="#">Mandarin Garden's Lost In Love</a></p>
+                        <p><strong>Mère :</strong> <a href="#">CH.Petarda Blonde Ambition</a></p>
+                        <p><strong>Lignée :</strong> <a href="https://www.centrale-canine.fr/lofselect/chien/tommyknockers-de-fu-xing-8136206/adn" target="_blank">Pedigrée complet</a></p>
                     </div>
                 </div>
             </div>

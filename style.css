@@ -333,6 +333,48 @@ footer {
     padding: 2rem;
     margin-top: 4rem;
 }
+
+/* ========================================
+   ANIMATIONS AU SCROLL
+   ======================================== */
+
+/* Animation d'apparition pour le hero */
+.fade-in {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Animation pour les titres de section */
+.section-title .scroll-animate {
+    opacity: 0;
+}
+
+.section-title .scroll-animate .visible {
+    animation: fadeInTitle 0.6s ease forwards;
+}
+
+@keyframes fadeInTitle {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 /* ############ RESPONSIVE ############ */
 @media (max-width: 1024px) {
     .header-container {
@@ -410,7 +452,6 @@ footer {
     height: 500px;
     background: linear-gradient(rgba(139, 101, 64, 0.6), rgba(101, 67, 33, 0.7)),
         url('./assets/img/a_propos.webp') center/cover;
-    /* Remplacez 'images/shih-tzu-hero.jpg' par le chemin de votre photo */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -543,11 +584,11 @@ footer {
     }
 }
 
-/* ############ FIN À PROPOS ############ */
+/* ############ FIN ABOUT ############ */
 
 /* ############ MÂLES ############ */
 .page-hero {
-    background: linear-gradient(135deg, #f5f5dc 0%, #d4af37 100%);
+    background: linear-gradient(135deg, #F5F5DC 0%, #D4AF37 100%);
     padding: 4rem 2rem;
     text-align: center;
     margin-bottom: 3rem;
