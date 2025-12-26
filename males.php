@@ -1,12 +1,12 @@
 <?php 
-$pageTitle = "Nos mâles - Élevage de Fu Xing";
-include 'includes/header.php';
+$pageTitle = "Qui sommes-nous ? - Mon Élevage de Chiens";
+include 'includes/header.php'; 
 ?>
     <!-- ############ HERO ########## -->
     <section class="page-hero">
         <div class="container">
             <h1>Nos mâles reproducteurs</h1>
-            <p>Découvrez nos magnifiques reproducteurs Shih Tzu, sélectionnés pour leurs qualités exceptionnelles</p>
+            <p>Nos mâles sélectionnés avec exigence pour leur lignée, leur caractère et leur conformité au standard.</p>
         </div>
     </section>
 
@@ -15,13 +15,28 @@ include 'includes/header.php';
 
             <!-- Chien 1 -->
             <div class="dog-card">
-                <div class="dog-image">
-                    <img src="images/male1.jpg" alt="Nom du chien 1">
-                    <div class="dog-name-badge">Bradley</div>
-                </div>
+
+                <div class="dog-image carousel">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="assets/img/bradley.jpg" alt="Bradley – Shih Tzu">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/img/bradley-2.jpg" alt="Bradley – profil">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/img/bradley-3.jpg" alt="Bradley – en extérieur">
+                        </div>
+                     </div>
+
+                    <div class="dog-name-badge">Bradley</div>   
+                    <button class="carousel-btn prev" aria-label="Image précédente">‹</button>
+                    <button class="carousel-btn next" aria-label="Image suivante">›</button>
+            </div>
+
                 <div class="dog-info">
                     <h3>Tommyknockers de Fu Xing </h3>
-                    <p class="dog-age">3 ans • Mâle</p>
+                    <p class="dog-age">Né le 20 avril 2022</p>
 
                     <div class="tabs">
                         <button class="tab-btn active" onclick="openTab(event, 'titres1')">Titres</button>
@@ -54,7 +69,7 @@ include 'includes/header.php';
                     <div id="pedigree1" class="tab-content">
                         <p><strong>Père :</strong> <a href="#">Mandarin Garden's Lost In Love</a></p>
                         <p><strong>Mère :</strong> <a href="#">CH.Petarda Blonde Ambition</a></p>
-                        <p><strong>Lignée :</strong> <a href="https://www.centrale-canine.fr/lofselect/chien/tommyknockers-de-fu-xing-8136206/adn" target="_blank">Pedigrée complet</a></p>
+                        <p><strong>Lignée :</strong> <a href="https://shihtzubase.com/dog.php?screen=1&id=42741&userif=1" target="_blank">Pedigrée complet</a></p>
                     </div>
                 </div>
             </div>
@@ -391,5 +406,13 @@ include 'includes/header.php';
 
         </div>
     </div>
+
+    <body>
+  ...
+  <!-- SCRIPT du carrousel -->
+
+  <script>
+
+  </script>
      <!-- ############ FOOTER ########## -->
 <?php include 'includes/footer.php'; ?>
