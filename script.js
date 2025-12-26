@@ -32,20 +32,3 @@ function openTab(evt, tabName) {
     evt.target.classList.add('active');
 }
 
-
-  const track = document.querySelector('.carousel-track');
-  const next = document.querySelector('.next');
-  const prev = document.querySelector('.prev');
-  let index = 0;
-
-  next.addEventListener('click', () => {
-      const slides = track.querySelectorAll('img');
-      index = (index + 1) % slides.length;
-      track.style.transform = `translateX(-${index * 100}%)`;
-  });
-
-  prev.addEventListener('click', () => {
-      const slides = track.querySelectorAll('img');
-      index = (index - 1 + slides.length) % slides.length;
-      track.style.transform = `translateX(-${index * 100}%)`;
-  });
